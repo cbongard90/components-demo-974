@@ -1,6 +1,6 @@
 .container {
   width: 700px;
-  margin: 50px auto 20px;
+  margin: 0 auto;
   /* 1 digit: (top right bottom left)
     2 digits: (top bottom) (right left)
     3 digits: top (right/left) bottom
