@@ -1,4 +1,21 @@
 .container {
-  /* TODO */
+  width: 700px;
+  margin: 50px auto 20px;
+  /* 1 digit: (top right bottom left)
+    2 digits: (top bottom) (right left)
+    3 digits: top (right/left) bottom
+    4 digits: top right bottom left
+  */
 }
 
+@media (max-width: 960px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
